@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="shapes_grid" id="0" name="Add Grid Values to Points">
+      <OPTION type="choice" id="RESAMPLING" name="Resampling" index="0">Nearest Neighbour</OPTION>
+      <INPUT type="shapes" id="SHAPES" name="Points">
+        <FILE>/private/var/folders/5w/chnsz0zn6jv8nn5r9vkkj05m0000gn/T/processing_1668671ea7d242f699e5a9a2031311df/d1eab728718e4440b04b7d749682ad9c/SHAPES.shp</FILE>
+      </INPUT>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids">
+        <slabdepthtotal type="grid_list" id="GRIDS" name="Grids">
+          <FILE>/private/var/folders/5w/chnsz0zn6jv8nn5r9vkkj05m0000gn/T/processing_1668671ea7d242f699e5a9a2031311df/ed35c990d1f5415e85b630a8bae077c1/slabdepthtotal.sgrd</FILE>
+        </slabdepthtotal>
+        <slabdiptotal type="grid_list" id="GRIDS" name="Grids">
+          <FILE>/private/var/folders/5w/chnsz0zn6jv8nn5r9vkkj05m0000gn/T/processing_1668671ea7d242f699e5a9a2031311df/0df8062a04c34582930213b25b5561fc/slabdiptotal.sgrd</FILE>
+        </slabdiptotal>
+        <slabthicknesstotal type="grid_list" id="GRIDS" name="Grids">
+          <FILE>/private/var/folders/5w/chnsz0zn6jv8nn5r9vkkj05m0000gn/T/processing_1668671ea7d242f699e5a9a2031311df/626a0aa5c0f8445fa7e6c0d09366b378/slabthicknesstotal.sgrd</FILE>
+        </slabthicknesstotal>
+      </INPUT_LIST>
+      <OUTPUT type="shapes" id="RESULT" name="Result">SHAPES</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE></FILE>
+    <DATABASE>
+      <FIELDS>
+        <FIELD TYPE="LONGINT">fid</FIELD>
+        <FIELD TYPE="LONGINT">id</FIELD>
+        <FIELD TYPE="STRING">sample_id</FIELD>
+        <FIELD TYPE="STRING">citations</FIELD>
+        <FIELD TYPE="STRING">tectonic_s</FIELD>
+        <FIELD TYPE="STRING">location</FIELD>
+        <FIELD TYPE="STRING">location_c</FIELD>
+        <FIELD TYPE="STRING">land_or_se</FIELD>
+        <FIELD TYPE="STRING">sample_nam</FIELD>
+        <FIELD TYPE="STRING">rock_name</FIELD>
+        <FIELD TYPE="STRING">min._age_y</FIELD>
+        <FIELD TYPE="STRING">max._age_y</FIELD>
+        <FIELD TYPE="STRING">geol.</FIELD>
+        <FIELD TYPE="STRING">age</FIELD>
+        <FIELD TYPE="STRING">rock_textu</FIELD>
+        <FIELD TYPE="STRING">rock_type</FIELD>
+        <FIELD TYPE="STRING">alteration</FIELD>
+        <FIELD TYPE="STRING">material</FIELD>
+        <FIELD TYPE="STRING">unique_id</FIELD>
+        <FIELD TYPE="STRING">arc_name</FIELD>
+        <FIELD TYPE="DOUBLE">latitude_m</FIELD>
+        <FIELD TYPE="DOUBLE">latitude_1</FIELD>
+        <FIELD TYPE="DOUBLE">longitude_</FIELD>
+        <FIELD TYPE="DOUBLE">longitud_1</FIELD>
+        <FIELD TYPE="DOUBLE">elevation_</FIELD>
+        <FIELD TYPE="DOUBLE">elevatio_1</FIELD>
+        <FIELD TYPE="DOUBLE">eruption_d</FIELD>
+        <FIELD TYPE="DOUBLE">eruption_m</FIELD>
+        <FIELD TYPE="DOUBLE">eruption_y</FIELD>
+        <FIELD TYPE="DOUBLE">drill_dept</FIELD>
+        <FIELD TYPE="DOUBLE">drill_de_1</FIELD>
+        <FIELD TYPE="STRING">mineral</FIELD>
+        <FIELD TYPE="DOUBLE">sio2wt</FIELD>
+        <FIELD TYPE="DOUBLE">tio2wt</FIELD>
+        <FIELD TYPE="DOUBLE">b2o3wt</FIELD>
+        <FIELD TYPE="DOUBLE">al2o3wt</FIELD>
+        <FIELD TYPE="DOUBLE">cr2o3wt</FIELD>
+        <FIELD TYPE="DOUBLE">fe2o3wt</FIELD>
+        <FIELD TYPE="DOUBLE">feowt</FIELD>
+        <FIELD TYPE="DOUBLE">feotwt</FIELD>
+        <FIELD TYPE="DOUBLE">caowt</FIELD>
+        <FIELD TYPE="DOUBLE">mgowt</FIELD>
+        <FIELD TYPE="DOUBLE">mnowt</FIELD>
+        <FIELD TYPE="DOUBLE">niowt</FIELD>
+        <FIELD TYPE="DOUBLE">k2owt</FIELD>
+        <FIELD TYPE="DOUBLE">na2owt</FIELD>
+        <FIELD TYPE="DOUBLE">p2o5wt</FIELD>
+        <FIELD TYPE="DOUBLE">h2owt</FIELD>
+        <FIELD TYPE="DOUBLE">h2opwt</FIELD>
+        <FIELD TYPE="DOUBLE">h2omwt</FIELD>
+        <FIELD TYPE="STRING">h2otwt</FIELD>
+        <FIELD TYPE="DOUBLE">co2wt</FIELD>
+        <FIELD TYPE="STRING">co1wt</FIELD>
+        <FIELD TYPE="DOUBLE">fwt</FIELD>
+        <FIELD TYPE="DOUBLE">clwt</FIELD>
+        <FIELD TYPE="DOUBLE">cl2wt</FIELD>
+        <FIELD TYPE="DOUBLE">ohwt</FIELD>
+        <FIELD TYPE="STRING">ch4wt</FIELD>
+        <FIELD TYPE="DOUBLE">so2wt</FIELD>
+        <FIELD TYPE="DOUBLE">so3wt</FIELD>
+        <FIELD TYPE="STRING">so4wt</FIELD>
+        <FIELD TYPE="DOUBLE">swt</FIELD>
+        <FIELD TYPE="DOUBLE">loiwt</FIELD>
+        <FIELD TYPE="STRING">volatilesw</FIELD>
+        <FIELD TYPE="STRING">owt</FIELD>
+        <FIELD TYPE="STRING">otherswt</FIELD>
+        <FIELD TYPE="STRING">heccm_g</FIELD>
+        <FIELD TYPE="DOUBLE">heccmstp_g</FIELD>
+        <FIELD TYPE="STRING">he3ccmstp_</FIELD>
+        <FIELD TYPE="STRING">he3at_g</FIELD>
+        <FIELD TYPE="STRING">he4ccm_g</FIELD>
+        <FIELD TYPE="STRING">he4ccmstp_</FIELD>
+        <FIELD TYPE="STRING">he4at_g</FIELD>
+        <FIELD TYPE="STRING">he4mole_g</FIELD>
+        <FIELD TYPE="STRING">he4ncc_g</FIELD>
+        <FIELD TYPE="STRING">hencc_g</FIELD>
+        <FIELD TYPE="DOUBLE">lippm</FIELD>
+        <FIELD TYPE="DOUBLE">beppm</FIELD>
+        <FIELD TYPE="DOUBLE">bppm</FIELD>
+        <FIELD TYPE="DOUBLE">cppm</FIELD>
+        <FIELD TYPE="DOUBLE">co2ppm</FIELD>
+        <FIELD TYPE="DOUBLE">fppm</FIELD>
+        <FIELD TYPE="DOUBLE">nappm</FIELD>
+        <FIELD TYPE="LONGINT">mgppm</FIELD>
+        <FIELD TYPE="LONGINT">alppm</FIELD>
+        <FIELD TYPE="DOUBLE">pppm</FIELD>
+        <FIELD TYPE="DOUBLE">sppm</FIELD>
+        <FIELD TYPE="DOUBLE">clppm</FIELD>
+        <FIELD TYPE="DOUBLE">kppm</FIELD>
+        <FIELD TYPE="DOUBLE">cappm</FIELD>
+        <FIELD TYPE="DOUBLE">scppm</FIELD>
+        <FIELD TYPE="DOUBLE">tippm</FIELD>
+        <FIELD TYPE="DOUBLE">vppm</FIELD>
+        <FIELD TYPE="DOUBLE">crppm</FIELD>
+        <FIELD TYPE="DOUBLE">mnppm</FIELD>
+        <FIELD TYPE="DOUBLE">feppm</FIELD>
+        <FIELD TYPE="DOUBLE">coppm</FIELD>
+        <FIELD TYPE="DOUBLE">nippm</FIELD>
+        <FIELD TYPE="DOUBLE">cuppm</FIELD>
+        <FIELD TYPE="DOUBLE">znppm</FIELD>
+        <FIELD TYPE="DOUBLE">gappm</FIELD>
+        <FIELD TYPE="DOUBLE">geppm</FIELD>
+        <FIELD TYPE="DOUBLE">asppm</FIELD>
+        <FIELD TYPE="DOUBLE">seppm</FIELD>
+        <FIELD TYPE="DOUBLE">brppm</FIELD>
+        <FIELD TYPE="DOUBLE">rbppm</FIELD>
+        <FIELD TYPE="DOUBLE">srppm</FIELD>
+        <FIELD TYPE="DOUBLE">yppm</FIELD>
+        <FIELD TYPE="DOUBLE">zrppm</FIELD>
+        <FIELD TYPE="DOUBLE">nbppm</FIELD>
+        <FIELD TYPE="DOUBLE">moppm</FIELD>
+        <FIELD TYPE="DOUBLE">ruppm</FIELD>
+        <FIELD TYPE="DOUBLE">rhppm</FIELD>
+        <FIELD TYPE="DOUBLE">pdppm</FIELD>
+        <FIELD TYPE="DOUBLE">agppm</FIELD>
+        <FIELD TYPE="DOUBLE">cdppm</FIELD>
+        <FIELD TYPE="DOUBLE">inppm</FIELD>
+        <FIELD TYPE="DOUBLE">snppm</FIELD>
+        <FIELD TYPE="DOUBLE">sbppm</FIELD>
+        <FIELD TYPE="DOUBLE">teppm</FIELD>
+        <FIELD TYPE="DOUBLE">ippm</FIELD>
+        <FIELD TYPE="DOUBLE">csppm</FIELD>
+        <FIELD TYPE="DOUBLE">bappm</FIELD>
+        <FIELD TYPE="DOUBLE">lappm</FIELD>
+        <FIELD TYPE="DOUBLE">ceppm</FIELD>
+        <FIELD TYPE="DOUBLE">prppm</FIELD>
+        <FIELD TYPE="DOUBLE">ndppm</FIELD>
+        <FIELD TYPE="DOUBLE">smppm</FIELD>
+        <FIELD TYPE="DOUBLE">euppm</FIELD>
+        <FIELD TYPE="DOUBLE">gdppm</FIELD>
+        <FIELD TYPE="DOUBLE">tbppm</FIELD>
+        <FIELD TYPE="DOUBLE">dyppm</FIELD>
+        <FIELD TYPE="DOUBLE">hoppm</FIELD>
+        <FIELD TYPE="DOUBLE">erppm</FIELD>
+        <FIELD TYPE="DOUBLE">tmppm</FIELD>
+        <FIELD TYPE="DOUBLE">ybppm</FIELD>
+        <FIELD TYPE="DOUBLE">luppm</FIELD>
+        <FIELD TYPE="DOUBLE">hfppm</FIELD>
+        <FIELD TYPE="DOUBLE">tappm</FIELD>
+        <FIELD TYPE="DOUBLE">wppm</FIELD>
+        <FIELD TYPE="DOUBLE">reppm</FIELD>
+        <FIELD TYPE="DOUBLE">osppm</FIELD>
+        <FIELD TYPE="DOUBLE">irppm</FIELD>
+        <FIELD TYPE="DOUBLE">ptppm</FIELD>
+        <FIELD TYPE="DOUBLE">auppm</FIELD>
+        <FIELD TYPE="DOUBLE">hgppm</FIELD>
+        <FIELD TYPE="DOUBLE">tlppm</FIELD>
+        <FIELD TYPE="DOUBLE">pbppm</FIELD>
+        <FIELD TYPE="DOUBLE">bippm</FIELD>
+        <FIELD TYPE="DOUBLE">thppm</FIELD>
+        <FIELD TYPE="DOUBLE">uppm</FIELD>
+        <FIELD TYPE="DOUBLE">nd143_nd14</FIELD>
+        <FIELD TYPE="DOUBLE">nd143_nd_1</FIELD>
+        <FIELD TYPE="DOUBLE">epsilon_nd</FIELD>
+        <FIELD TYPE="DOUBLE">sr87_sr86</FIELD>
+        <FIELD TYPE="DOUBLE">sr87_sr86_</FIELD>
+        <FIELD TYPE="DOUBLE">pb206_pb20</FIELD>
+        <FIELD TYPE="DOUBLE">pb206_pb_1</FIELD>
+        <FIELD TYPE="DOUBLE">pb207_pb20</FIELD>
+        <FIELD TYPE="DOUBLE">pb207_pb_1</FIELD>
+        <FIELD TYPE="DOUBLE">pb208_pb20</FIELD>
+        <FIELD TYPE="DOUBLE">pb208_pb_1</FIELD>
+        <FIELD TYPE="STRING">os184_os18</FIELD>
+        <FIELD TYPE="STRING">os186_os18</FIELD>
+        <FIELD TYPE="DOUBLE">os187_os18</FIELD>
+        <FIELD TYPE="DOUBLE">os187_os_1</FIELD>
+        <FIELD TYPE="STRING">re187_os18</FIELD>
+        <FIELD TYPE="DOUBLE">re187_os_1</FIELD>
+        <FIELD TYPE="DOUBLE">hf176_hf17</FIELD>
+        <FIELD TYPE="DOUBLE">he3_he4</FIELD>
+        <FIELD TYPE="DOUBLE">he3_he4r_r</FIELD>
+        <FIELD TYPE="LONGINT">he4_he3</FIELD>
+        <FIELD TYPE="DOUBLE">he4_he3r_r</FIELD>
+        <FIELD TYPE="STRING">k40_ar40</FIELD>
+        <FIELD TYPE="DOUBLE">ar40_k40</FIELD>
+        <FIELD TYPE="STRING">unnamed__1</FIELD>
+        <FIELD TYPE="DOUBLE">latitude</FIELD>
+        <FIELD TYPE="DOUBLE">longitude</FIELD>
+        <FIELD TYPE="DOUBLE">long_qgis</FIELD>
+        <FIELD TYPE="DOUBLE">slabdepthtotal</FIELD>
+        <FIELD TYPE="DOUBLE">slabdiptotal</FIELD>
+        <FIELD TYPE="DOUBLE">slabthicknesstotal</FIELD>
+      </FIELDS>
+    </DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>

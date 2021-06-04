@@ -1,0 +1,45 @@
+<VRTDataset rasterXSize="723" rasterYSize="361" subClass="VRTWarpedDataset">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.8000000000000000e+02,  4.9806186771971733e-01,  0.0000000000000000e+00,  9.0000000000000000e+01,  0.0000000000000000e+00, -4.9806186771971733e-01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1" subClass="VRTWarpedRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">67.442001342773</MDI>
+      <MDI key="STATISTICS_MEAN">24.372917225428</MDI>
+      <MDI key="STATISTICS_MINIMUM">8.1094999313354</MDI>
+      <MDI key="STATISTICS_STDDEV">11.631850993947</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <NoDataValue>-99999</NoDataValue>
+  </VRTRasterBand>
+  <BlockXSize>512</BlockXSize>
+  <BlockYSize>128</BlockYSize>
+  <GDALWarpOptions>
+    <WarpMemoryLimit>6.71089e+07</WarpMemoryLimit>
+    <ResampleAlg>NearestNeighbour</ResampleAlg>
+    <WorkingDataType>Float64</WorkingDataType>
+    <Option name="SOURCE_EXTRA">1000</Option>
+    <Option name="INIT_DEST">NO_DATA</Option>
+    <SourceDataset relativeToVRT="1">szw_raster2_correct.vrt</SourceDataset>
+    <Transformer>
+      <ApproxTransformer>
+        <MaxError>0.125</MaxError>
+        <BaseTransformer>
+          <GenImgProjTransformer>
+            <SrcGeoTransform>-180,0.498614958448753476,0,90,0,-0.495867768595041336</SrcGeoTransform>
+            <SrcInvGeoTransform>361,2.00555555555555554,0,181.5,0,-2.01666666666666661</SrcInvGeoTransform>
+            <DstGeoTransform>-180,0.498061867719717333,0,90,0,-0.498061867719717333</DstGeoTransform>
+            <DstInvGeoTransform>361.400885444405105,2.00778269691336142,0,180.700442722202553,0,-2.00778269691336142</DstInvGeoTransform>
+          </GenImgProjTransformer>
+        </BaseTransformer>
+      </ApproxTransformer>
+    </Transformer>
+    <BandList>
+      <BandMapping src="1" dst="1">
+        <SrcNoDataReal>-99999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-99999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+    </BandList>
+  </GDALWarpOptions>
+</VRTDataset>

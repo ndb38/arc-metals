@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="grid_gridding" id="1" name="Inverse Distance Weighted">
+      <OPTION type="table_field" id="FIELD" name="Attribute" index="3">Moho_Depth</OPTION>
+      <OPTION type="choice" id="TARGET_DEFINITION" name="Target Grid System" index="0">user defined</OPTION>
+      <OPTION type="double" id="TARGET_USER_SIZE" name="Cellsize">100.000000</OPTION>
+      <OPTION type="double" id="TARGET_USER_XMIN" name="Left">-180.500000</OPTION>
+      <OPTION type="double" id="TARGET_USER_XMAX" name="Right">119.500000</OPTION>
+      <OPTION type="double" id="TARGET_USER_YMIN" name="Bottom">-90.500000</OPTION>
+      <OPTION type="double" id="TARGET_USER_YMAX" name="Top">9.500000</OPTION>
+      <OPTION type="choice" id="TARGET_USER_FITS" name="Fit" index="0">nodes</OPTION>
+      <OPTION type="choice" id="SEARCH_RANGE" name="Search Range" index="0">local</OPTION>
+      <OPTION type="double" id="SEARCH_RADIUS" name="Maximum Search Distance">1000.000000</OPTION>
+      <OPTION type="choice" id="SEARCH_POINTS_ALL" name="Number of Points" index="0">maximum number of nearest points</OPTION>
+      <OPTION type="integer" id="SEARCH_POINTS_MIN" name="Minimum">1</OPTION>
+      <OPTION type="integer" id="SEARCH_POINTS_MAX" name="Maximum">20</OPTION>
+      <OPTION type="choice" id="SEARCH_DIRECTION" name="Direction" index="0">all directions</OPTION>
+      <OPTION type="choice" id="DW_WEIGHTING" name="Weighting Function" index="1">inverse distance to a power</OPTION>
+      <OPTION type="double" id="DW_IDW_POWER" name="Inverse Distance Weighting Power">2.000000</OPTION>
+      <OPTION type="boolean" id="DW_IDW_OFFSET" name="Inverse Distance Offset">FALSE</OPTION>
+      <INPUT type="shapes" id="SHAPES" name="Points">
+        <FILE>/private/var/folders/5w/chnsz0zn6jv8nn5r9vkkj05m0000gn/T/processing_0dffa134fc3445c894db8d3d9b1dfb80/8fa0a02a7ab04e8e9b1d31ca17969b35/SHAPES.shp</FILE>
+      </INPUT>
+      <OUTPUT type="grid" id="TARGET_OUT_GRID" name="Target Grid">Moho_Depth [Inverse Distance Weighted]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE>/Users/nickbarber/OneDrive - University Of Cambridge/PhD Research/Slab_Metals/Szwillus2019/szw_raster.sgrd</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>

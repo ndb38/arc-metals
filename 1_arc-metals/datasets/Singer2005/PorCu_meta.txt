@@ -1,0 +1,215 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: US Geological Survey
+      Publication_Date: 2005
+      Title: Porphyry Copper Deposits of the World: Database, Map, and Grade and Tonnage Models
+      Series Information:
+        Series Name: Open-File Report
+        Issue Identification: 2005-1060
+      Publication Information:
+        Publication Place: http://pubs.usgs.gov/of/2005/1060/
+        Publisher: US Geological Survey
+  Description:
+    Abstract: Mineral deposit models are important in exploration planning and quantitative resource assessments for two reasons: (1) grades and tonnages among deposit types are significantly different, and (2) many types occur in different geologic settings that can be identified from geologic maps.  Mineral deposit models are the keystone in combining the diverse geoscience information on geology, mineral occurrences, geophysics, and geochemistry used in resource assessments and mineral exploration.  Too few thoroughly explored mineral deposits are available in most local areas for reliable identification of the important geoscience variables or for robust estimation of undiscovered deposits-thus we need mineral-deposit models.  Globally based deposit models allow recognition of important features because the global models demonstrate how common different features are.  Well-designed and -constructed deposit models allow geologists to know from observed geologic environments the possible mineral deposit types that might exist, and allow economists to determine the possible economic viability of these resources in the region.  Thus, mineral deposit models play the central role in transforming geoscience information to a form useful to policy makers.  The foundation of mineral deposit models is information about known deposits.
+    Purpose: The purpose of this publication is to make this kind of information available in digital form for porphyry copper deposits.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2005
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Irregular
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -180
+      East_Bounding_Coordinate: 180
+      North_Bounding_Coordinate: 90
+      South_Bounding_Coordinate: -90
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: AGI Glossary
+      Theme_Keyword: Porphyry Copper
+      Theme_Keyword: Copper
+      Theme_Keyword: Molybdenum
+      Theme_Keyword: Gold
+      Theme_Keyword: Platinum
+      Theme_Keyword: Palladium
+      Theme_Keyword: Silver
+      Theme_Keyword: Mineral Resources
+      Theme_Keyword: Deposit Models
+      Theme_Keyword: Ore
+      Theme_Keyword: Reserves
+    Place:
+      Place_Keyword: World
+  Access_Constraints: None
+  Use_Constraints: uses constrained
+  Security_Information:
+    Security_Classification: Unclassified
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.0.0.535
+Data_Quality_Information:
+  Logical_Consistency_Report: Variable by record
+  Lineage:
+    Process_Step:
+      Process_Description: Compiled
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Point
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: PorCu.FP6
+    Attribute:
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OtherNames
+          Enumerated_Domain_Value_Definition: Alternative names that have been used for the deposit.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Includes
+          Enumerated_Domain_Value_Definition: Names of deposits that have been combined with the primary deposit as a result of the two-kilometer minimum separation rule.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Country
+          Enumerated_Domain_Value_Definition: Country.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CountryCode
+          Enumerated_Domain_Value_Definition: Abbreviated version of the country information fond in Table 1.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: StateProvince
+          Enumerated_Domain_Value_Definition: "State, Province, or local regional information._
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Type
+          Enumerated_Domain_Value_Definition: "Deposit type number coded as listed in USGS Bulletins 1693 (Cox and Singer, 1986). Subtypes of porphyry copper deposits are defined in Cox and Singer (1992) as: porphyry Cu-Au (type 20c) if Au/Mo greater than or equal to 30, porphyry Cu-Mo (type 21a) if Au/Mo less than or equal to 3, and porphyry Cu (type 17) otherwise, where gold is in parts per million and molybdenum is in percent. Skarn-related porphyry copper deposits (type 18a) were not addressed".
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LatitudeDegrees
+          Enumerated_Domain_Value_Definition: LatitudeDegrees.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LatitudeMinutes
+          Enumerated_Domain_Value_Definition: LatitudeMinutes.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LatitudeSeconds
+          Enumerated_Domain_Value_Definition: LatitudeSeconds.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LatitudeDecimal
+          Enumerated_Domain_Value_Definition: LatitudeDecimal.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LongitudeDegrees
+          Enumerated_Domain_Value_Definition: LongitudeDegrees.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LongitudeMinutes
+          Enumerated_Domain_Value_Definition: LongitudeMinutes.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LongitudeSeconds
+          Enumerated_Domain_Value_Definition: LongitudeSeconds.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LongitudeDecimal
+          Enumerated_Domain_Value_Definition: LongitudeDecimal.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Emplacement Depth
+          Enumerated_Domain_Value_Definition: "The depth of emplacement of the porphyry copper deposits in kilometers recorded when it was estimated in the literature._
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MapNumber
+          Enumerated_Domain_Value_Definition: Unique number keyed to map.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DiscoveryDate
+          Enumerated_Domain_Value_Definition: The discovery date if recorded.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: StartupDate
+          Enumerated_Domain_Value_Definition: Start up date listed when known.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Prospect?
+          Enumerated_Domain_Value_Definition: "If known to be a prospect at the time of this publication it is recorded as ""yes""".
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tonnage
+          Enumerated_Domain_Value_Definition: "Millions of metric tons based on the total production, reserves, and resources at the lowest possible cutoff grade._
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Copper grade
+          Enumerated_Domain_Value_Definition: Percent metal.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Molybdenum grade
+          Enumerated_Domain_Value_Definition: Percent metal.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Gold grade
+          Enumerated_Domain_Value_Definition: Grams/metric ton. Grades not available are treated as zero.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Silver grade
+          Enumerated_Domain_Value_Definition: Grams/metric ton. Grades not available are treated as zero.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Comments
+          Enumerated_Domain_Value_Definition: "Contains supplementary information about incompletely explored deposits and some grades such as Pt and Pd when available. Two significant digits are presented for gold, silver, and molybdenum grades, but three significant digits are used for tonnage and copper grades._
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DepositAge
+          Enumerated_Domain_Value_Definition: Ages are in standard divisions of geologic time or in millions of years when available.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AgeMY
+          Enumerated_Domain_Value_Definition: "Ages are reported in millions of years before the present, based on reported absolute (typically thermal dates) ages or midpoints of geologic time scale units (Remane, 1998)._
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mineralogy
+          Enumerated_Domain_Value_Definition: List of ore and alteration mineralogy mentions in references. By nature the list is of highly variable quality depending on authors_ purpose. Most common rock forming minerals are excluded.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SulfideArea
+          Enumerated_Domain_Value_Definition: area of pyrite zone in square kilometers.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SulfideAAxis
+          Enumerated_Domain_Value_Definition: area of pyrite zone in square kilometers.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SulfideBAxis
+          Enumerated_Domain_Value_Definition: area of pyrite zone in square kilometers.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AlterArea
+          Enumerated_Domain_Value_Definition: area of alteration zone in square kilometers.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AlterAAxis
+          Enumerated_Domain_Value_Definition: the major alteration zone axis in km.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AlterBAxis
+          Enumerated_Domain_Value_Definition: "alteration zone minor axis in km,_
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OreArea
+          Enumerated_Domain_Value_Definition: area of ore zone in square kilometers.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OreAAxis
+          Enumerated_Domain_Value_Definition: area of ore zone in square kilometers.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OreAAxis
+          Enumerated_Domain_Value_Definition: area of ore zone in square kilometers.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: RocksInDeposit
+          Enumerated_Domain_Value_Definition: rocks that are represented in the deposit itself and not observable on a regional map.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: RocksOnMapInDeposit
+          Enumerated_Domain_Value_Definition: Rocks that are recorded both in the deposit and on a regional map.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: RocksOnMap
+          Enumerated_Domain_Value_Definition: "Rocks on a regional map, but not in the deposit._
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Assoc Deposits less 5km
+          Enumerated_Domain_Value_Definition: "Other deposits with in 5 km coded as the deposit type number and deposit type as listed in USGS Bulletins 1693 (Cox and Singer, 1986) and 2004 (Bliss, 1992)".
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Assoc Deposits less 10km
+          Enumerated_Domain_Value_Definition: "Other deposits with in 10 km coded as the deposit type number and deposit type as listed in USGS Bulletins 1693 (Cox and Singer, 1986) and 2004 (Bliss, 1992)".
+        Enumerated_Domain:
+          Enumerated_Domain_Value: References
+          Enumerated_Domain_Value_Definition: List of source(s) of data.
+Distribution_Information:
+  Resource_Description: Downloadable Data
+Metadata_Reference_Information:
+  Metadata_Date: 20041217
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person:: Donald Singer
+      Contact_Address:
+        Address_Type: 345 Middlefield Road, MS-901.
+        City: Menlo Park
+        State_or_Province: CA
+        Postal_Code: 94025
+      Contact_Voice_Telephone: 650-329-5370
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
