@@ -1,4 +1,4 @@
-# Documentation for ArcMetals Project ###
+# Documentation for ArcMetals Project
 # Author: Nicholas Barber
 # Creation Date: 18/11/2019
 # Last Updated: 07/06/2021
