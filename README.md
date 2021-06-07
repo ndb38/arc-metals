@@ -2,13 +2,13 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ndb38/arc-metals/master)
 
-Welcome! This repository hosts the code, raw and processed data, models, figures, and relevant supplementary materials for our recently published manuscript: _Amphibole Control on Copper Systematics in Arcs: Insights from the Analysis of Global Datasets_. This article was accepted for publication in _Geochimica et Cosmochimica Acta_ on May 17th 2021, and puiblsihed onlien on May 23rd 2021 udner a Creative Commons license. The live, Open Access Paper, can be found here:  https://www.sciencedirect.com/science/article/pii/S0016703721003070. 
+Welcome! This repository hosts the code, raw and processed data, models, figures, and relevant supplementary materials for our recently published manuscript: _Amphibole Control on Copper Systematics in Arcs: Insights from the Analysis of Global Datasets_. This article was accepted for publication in _Geochimica et Cosmochimica Acta_ on May 17th 2021, and published online on May 23rd 2021 under a Creative Commons license. The live, Open Access Paper, can be found here:  https://www.sciencedirect.com/science/article/pii/S0016703721003070. 
 
 Cite it as: **add citation info when final version published**
 
 Open Access is courtesy of the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/about/policies-and-resources/open-access-policy), and the [Gates Cambridge Trust](https://www.gatescambridge.org)
 
-To amplify and build upon the work we present in this paper, all the relevant code and supporting information discussed in the paper is made available here. Over the comign weeks and months, gudies, walkthroguhs, and itneractive elements will be added to this respoitory to highlight the usefullness of our data compilation **ArcMetals**. Hopefully you or someone you know will find our work helpful in exploring your own geochemical datasets!
+To amplify and build upon the work we present in this paper, all the relevant code and supporting information discussed in the paper is made available here. Over the coming weeks and months, guides, walkthroughs, and interactive elements will be added to this repository to highlight the usefulness of our data compilation **ArcMetals**. Hopefully you or someone you know will find our work helpful in exploring your own geochemical datasets!
 
 # Citing & Contacting Us
 
@@ -20,21 +20,21 @@ This repository is broken down into a few main sections, following the main them
 
 ## 1_arc-metals
 
-The "homebase" of this repository. Here you can find the Python script we used to compile the the relevant [GeoRoc](http://georoc.mpch-mainz.gwdg.de/georoc/) datasets, following our compilation Methods as described in the paper. This section also contains pre-compiled versions of the ArcMetals database, as well as companion databses (some sued in the paper, others not). See the README in this folder for more details about the code, data, and other relevant features. 
+The "homebase" of this repository. Here you can find the Python script we used to compile the relevant [GeoRoc](http://georoc.mpch-mainz.gwdg.de/georoc/) datasets, following our compilation Methods as described in the paper. This section also contains pre-compiled versions of the ArcMetals database, as well as companion databases (some sued in the paper, others not). See the README in this folder for more details about the code, data, and other relevant features. 
 
 ## 2_analysis
 
-This section comprises the Jupyter notebooks and related pytohn code used to perform the relevant analyses and create the requisite plots as seen in our manuscript. These notebooks are commented throguh, and provide additional examples beyond what was discussed in the paper. 
+This section comprises the Jupyter notebooks and related python code used to perform the relevant analyses and create the requisite plots as seen in our manuscript. These notebooks are commented through and provide additional examples beyond what was discussed in the paper. 
 
 ## 3_modeling
 
 Some of the standalone modeling scripts are posted here. 
 
-Models currently expressed as Excel worksheets are posted here, and will eventually be covnerted to Python models. 
+Models currently expressed as Excel worksheets are posted here, and will eventually be converted to Python models. 
 
 ## 4_figures
 
-Figures and subplots related to the paper (not all of these figures apear in the main paper).
+Figures and subplots related to the paper (not all of these figures appear in the main paper).
 
 ## 5_examples
 
@@ -55,5 +55,5 @@ WORK IN PROGRESS
 - [ ] Convert from Excel to Python, finalize, and comment modeling code
 - [ ] Finalize and comment figures
 - [ ] Upload any remaining documentation
-- [ ] Develop Dash itnerface foir ArcMetals
+- [ ] Develop Dash interface for ArcMetals
 - [ ] Publish how-to guides on working with global arc chemical data, both using Python and QGIS
