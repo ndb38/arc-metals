@@ -1,12 +1,11 @@
-### Documentation for Hayes QGIS Project ###
-### Author: Nicholas Barber
-### Date: 18/11/2019
+# Documentation for ArcMetals Project ###
+# Author: Nicholas Barber
+# Creation Date: 18/11/2019
+# Last Updated: 07/06/2021
 
-I will detail different components of my final QGIS setup to provide context for my Python 
-and MELTS models about what decisions I made about projections, coordinates, filtering, 
-and geotransformation. 
+I will detail different components of my final QGIS setup to provide context for my Python models about what decisions I made about projections, coordinates, filtering, and geotransformation. **First this README provides information on the step-by-step process of creating the ArcMetals database (Sections 1-3), and then it provides a full list and inventory of the files present in this repo (Section 4)**. 
 
-#### GEOROC DOWNLOAD
+## 1. Downloading CSV files from GeoRoc
 
 Here are the steps I took to download each Arc's GeoROC .csv file with similar formats. 
 The actual shape of the dataset varied given what chemical data was available for each arc.
@@ -41,11 +40,15 @@ which contained the References and selectionc riteria for my query. Usually this
 is stored at the bottom of a sheet, so formatting this way meant the sheets were clean for 
 further analysis. 
 
-#### Parsing with Python 
+## 2. Parsing with Python 
 
+Wroted the **georock_parser_v3.py** script to sort throguh these CSVs efficently, make them all fit a standard mold, and applied the six filters to the data as discussed in 
 
-#### QGIS
-# Clipping of gbm_hayes_2.gpkg
+## 3. QGIS
+
+Compilation of tectonic/geophysical data done using QGIS. See Supplementary Item 1 from main manuscript regarding QGIS methods applied. Ata  alater time, QGIS maps and guides will be provided to help you replicate what I did here
+
+### 3.1 Clipping of gbm_hayes_2.gpkg
 
 I decided to clip gbm_hayes_2.gpkg (my original CSV file creted from compiling all GeoRock
 arc datasets, importing them as a CSV, converting to points, and applying gdal_warp to 
@@ -60,12 +63,14 @@ Papua. Again, back-arc data likely important for understanding role of changing 
 structure in controlling chalcophile systematics.
 
 3) Manus Basin - Addded coverage to back-arc between Tonga and Vanuatu - incldues Manus basin
-which is another end member, this time for magnetite fractionation and Fran's 
+which is another end member, this time for magnetite fractionation and Fran's
 'Magnetite Crisis'
 
-#### ABBREVIATIRONS IN CSV ####
+## 4. Inventory of Files in this Repository
 
-test
+
+
+#### ABBREVIATIRONS IN CSVs ####
 
 Abbreviations: MET: METAMORPHIC ROCK; PEG: PEGMATITE; PER: MANTLE XENOLITH; PLU: PLUTONIC ROCK; 
 SED: SEDIMENTARY ROCK; VOL: VOLCANIC ROCK; VEIN: VEIN; ORE: ORE; WR: WHOLE ROCK; GL: VOLCANIC GLASS; 
