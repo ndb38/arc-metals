@@ -1,0 +1,45 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - conda
+  - python
+  - python.app
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda
+  - anaconda-navigator
+  - navigator-updater
+  - spyder=4.1.5
+  - geopandas
+  - plotly
+  - jupyterthemes
+  - pandas-profiling
+  - pyjanitor
+  - proj
+  - descartes
+  - geos
+  - gdal
+  - postgresql
+  - verde
+  - voila
+  - matplotlib
+  - jupyterlab
+  - contextily
+  - earthengine-api
+  - pydeck
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - ipywidgets
+  - panel
+  - seaborn
+  - python-ternary
+  - joypy
+  - vega_datasets
+  - altair
+  - nbconvert
+  - jupyterlab_server
+  - matplotlib-base
+prefix: /Users/nickbarber/anaconda3

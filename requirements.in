@@ -1,4 +1,0 @@
-numpy
-matplotlib==3.3.1
-seaborn==0.0.11.1
-pandas
