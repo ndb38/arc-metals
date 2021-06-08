@@ -1,10 +1,14 @@
-name: example-environment
-channels:
-  - conda-forge
+name: python-3.8
 dependencies:
-  - python
-  - numpy
-  - pip
+  - python=3.8
+  - statsmodels=0.12.1
+  - seaborn==0.11.1
+  - scipy==1.5.2
+  - pyrolite==0.2.8
+  - pandas==1.1.2
+  - numpy==1.18.4
+  - matplotlib==3.3.1
+  - geopandas==0.8.1
   - pip:
     - nbgitpuller
     - sphinx-gallery
