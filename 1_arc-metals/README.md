@@ -1,7 +1,9 @@
 # Documentation for ArcMetals Project
-# Author: Nicholas Barber
-# Creation Date: 18/11/2019
-# Last Updated: 07/06/2021
+**Author: Nicholas Barber**
+
+**Creation Date: 18/11/2019**
+
+**Last Updated: 07/06/2021**
 
 I will detail different components of my final QGIS setup to provide context for my Python models about what decisions I made about projections, coordinates, filtering, and geotransformation. **First this README provides information on the step-by-step process of creating the ArcMetals database (Sections 1-3), and then it provides a full list and inventory of the files present in this repo (Section 4)**. 
 
@@ -68,9 +70,17 @@ which is another end member, this time for magnetite fractionation and Fran's
 
 ## 4. Inventory of Files in this Repository
 
+- `arc-metals.csv`: Full master database as used in the paper. Created using the [formattingArcMetals](https://github.com/ndb38/arc-metals/blob/master/2_analysis/formattingArcMetals.ipynb) Notebook. 55794 rows by 103 columns. See separate documentation (link) for column definitions
+- `gbm_v2f6_final_syr.csv`: Old master version of the main ArcMetals database. Includes all QGIS appended data, but none of the indices or adjusted columns as calculatedd in the formattingArcMetals notebook
+- `gm_ree_lambdas_all_data.csv`: ArcMeals database with lambda values calculated. Total size of database is reduced from 55000+ to 7000+ in this way, as only a handful of the records have near complete enoguh rare earth element (REE) values in order to calculate lambda. For more on lambda values, see our paper or [Hugh O'Neill's 2016 paper](https://academic.oup.com/petrology/article/57/8/1463/2413419?login=true) 
+- `plutonic_database.csv`: An all plutonic rock version of ArcMetals. This database is complied the exact same way as ArcMetals, but is based off of GeoRoc's plutonic(intrsuive) datasets rather than its volcanic)extrusive) datasets. In actuality the volcanic dataset incldues some intrusive rocks, so the boundary between these two datasets is a bit of a blur. But regardless of the exact distinctions, this database is considerably smaller (~4600 samples) and contains a signfiicant fraction of mantle rocks as well as more classicly deifned intrusive rocks. 
+- `plutonic_lambda_database_V2.csv`: Same database as the plutonic database above, but filtered to incldue only those smaples that have enoguh REE data to calculate their lambda values. 
+- `ulmer_database_wtraces3.csv`: Old version of the glass and experimental condition data used for modeling in Figures 3, 7, and 8 in our paper. These data were generated empirically in the [2018 work by Peter Ulmer's group](https://academic.oup.com/petrology/article/59/1/11/4866144?login=true).
+- `ulmer_s_models_database2.csv`: A condensed version of the Supplemental Table used to calculate sulphide abundance and composition in Figure 8 of our paper. 
+- `ulmer_scss_corr.csv`: The master version of the ulmer database, including accurate SCSS values geenrated from [O'Neill 2020](https://www.essoar.org/doi/abs/10.1002/essoar.10503096.1)
 
 
-#### ABBREVIATIRONS IN CSVs ####
+#### ABBREVIATIRONS USED IN CSVs - from GeoRoc ####
 
 Abbreviations: MET: METAMORPHIC ROCK; PEG: PEGMATITE; PER: MANTLE XENOLITH; PLU: PLUTONIC ROCK; 
 SED: SEDIMENTARY ROCK; VOL: VOLCANIC ROCK; VEIN: VEIN; ORE: ORE; WR: WHOLE ROCK; GL: VOLCANIC GLASS; 
