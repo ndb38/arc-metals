@@ -4,7 +4,7 @@
 
 Welcome! This repository hosts the code, raw and processed data, models, figures, and relevant supplementary materials for our recently published manuscript: _Amphibole Control on Copper Systematics in Arcs: Insights from the Analysis of Global Datasets_. This article was accepted for publication in _Geochimica et Cosmochimica Acta_ on May 17th 2021, and published online on May 23rd 2021 under a Creative Commons license. The live, Open Access Paper, can be found here:  https://www.sciencedirect.com/science/article/pii/S0016703721003070. 
 
-Cite it as: **add citation info when final version published**
+Cite it as: Barber, N.D., Edmonds, M., Jenner, F., Audétat, A. and Williams, H., 2021. Amphibole Control on Copper Systematics in Arcs: Insights from the Analysis of Global Datasets. Geochimica et Cosmochimica Acta. 307: 192-211. [DOI](https://doi.org/10.1016/j.gca.2021.05.034)
 
 Open Access is courtesy of the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/about/policies-and-resources/open-access-policy), and the [Gates Cambridge Trust](https://www.gatescambridge.org)
 
