@@ -5,8 +5,11 @@ Here you'll find a detailed description of each and every column in the database
 # First 119 columns are taken from GeoRoc. Some of these were adapted, edited, or condensed following the georock_parser.py script
 
 'fid': indices as a result of the compilation
+
 'index' and 'arc_index': pythonic indices used during the compilation script
+
 'sample_name': sample name from publication, as recorded in GeoRoc
+
 'type_of_mineral': GeoRoc columns telling us whether the sample in question is a whole rock, inclusion, or glass sample
 'method_f': compilation column I made during the georock_parser.py script. It concatenates all the different analytical methods recorded in each record: ICPMS,TIMS tells us the geochemical data measured in this row was obtained with a combination of TIMS and ICPMS analyses
 'citation': reference from the paper this samples data comes from. See GeoRoc for citation details
