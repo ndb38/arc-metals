@@ -1,0 +1,13 @@
+### READ ME ###
+# Jan 11th 2022
+
+The original hard-coded SCSS modelign script was written by PhD student Callum Reekie in Feb 2019. 
+Callum has left academia, and given me permission to share this script. I used a modified version of his original script
+to calculate SCSS in my 2021 paper. 
+
+In the future, this script will be converted into a fully interoperable library - stay tuned for updates 
+on that. 
+
+Let me know if you have any questions about the script!
+
+- Nick
