@@ -1,0 +1,11 @@
+## Changes made to Callum's python script
+## Adressing scssmodel.py <- script provided by Callum Reekie (Cambridge)
+## adapting O'Neill's 2019 SCSS modle from Excel to python.
+
+On Monday April 20th, I removed the file path proofing section at the beginning of the script, because it 
+was throwing exceptions. I need to look into the reason for this at some point. 
+
+On Wednesday April 22nd, I added an Fe2O3 column to all of my input files, and edited the 
+code so that [Fe2O3] is no longer regressed through MORB, but taken directly from observational data.
+Fe2O3 in the glass was estimated based on the Fe3/Fe2 ratio in the starting components. This
+change, using the proper Fe2O3, has a huge effect on SCSS!
